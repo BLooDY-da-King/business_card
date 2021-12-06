@@ -1,0 +1,177 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    background-color: #23252C;
+    height: 100%;
+    width: 100%;
+    font-family: Inter, sans-serif;
+}
+
+.BusCard {
+    width: 30%;
+    min-width: 500px;
+    background-color: #1A1B21;
+    margin: 10vh auto;
+    border: #1A1B21 1px solid;
+    border-radius: 15px;
+}
+
+
+/* PROFILE PHOTO */
+
+
+.ProfilePhoto > img {
+    width: 100%;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+} 
+
+
+/* MAIN CONTENT */
+
+
+.MainContent {
+    display: flex;
+    flex-direction: column;
+}
+
+.Personal {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.Personal > h1 {
+    margin: 0;
+    padding-top: 30px;
+    color: white;
+    font-weight: 600;
+}
+
+.Personal > h4 {
+    margin: 0;
+    padding-top: 5px;
+    padding-bottom: 30px;
+    color: #F3BF99;
+    font-weight: 400;
+    font-size: 1.3em;
+}
+
+.Personal > a {
+    text-decoration: none;
+    color: white;
+    font-size: 1.2em;
+}
+
+.Personal > a:hover {
+    color: #F3BF99;
+}
+
+.Buttons {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 50px;    
+}
+
+.EmailButton {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 170px;
+    height: 70px;
+    border: 3px solid #F3BF99; 
+    border-radius: 35px;
+    font-size: 1.15em;
+}
+
+.EmailButton > p {
+    margin: 0;
+}
+
+.EmailButton > img {
+    width: 45px;
+    padding-right: 5px;
+    margin: 0;
+}
+
+.EmailButton:hover {
+    transition: all .8s ease;
+    background-color: #F3BF99;
+}
+
+.EmailButton:active {
+    transition: all .2s ease;
+    background: white;
+    box-shadow: none;
+  }
+
+.LinkedinButton {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 170px;
+    height: 70px;
+    color: #0097D3;
+    border: 3px solid #F3BF99;
+    border-radius: 35px;
+    transition: all .8s ease;
+    font-size: 1.15em;
+}
+
+.LinkedinButton:hover {
+    background-color: #F3BF99;
+}
+
+.LinkedinButton > img {
+    width: 35px;
+    padding-right: 5px;
+}
+
+.LinkedinButton:active {
+    transition: all .2s ease;
+    background: white;
+    box-shadow: none;
+  }
+
+.AboutMe {
+    display: flex;
+    flex-direction: column;
+    padding: 40px 65px;
+}
+
+.AboutMe > h1 {
+    font-weight: 500;
+    color: #F3BF99;
+    margin: 20px 0 0 0;
+}
+
+.AboutMe > p {
+    color: white;
+    font-size: 1.3em;
+}
+
+
+/* FOOTER */
+
+
+.Footer {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-direction: row;
+    padding: 30px 100px;
+    background-color: #161619;
+    border-bottom-left-radius: 15px;
+    border-bottom-right-radius: 15px;
+}
+
+.Footer img {
+    width: 30px;
+}
+
+
+  
